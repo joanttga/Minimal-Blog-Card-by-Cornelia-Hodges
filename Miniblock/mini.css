@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+:root {
+--bg-2: #fafaf9;
+--bg-1: #ffffff;
+--bg-tag: #e6d6fc;
+--color-tag: #812fde;
+--color-1: black;
+--color-2: #676e7b;
+--border: #e5eaf0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'sora', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg-2);
+}
+section,
+section img {
+    height: fit-content;
+    border-radius: 10px;
+}
+section {
+    background-color: #ffffff;
+  
+    border-radius: 16px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+section div {
+    width: 336px;
+    padding: 16px;
+}
+
+section img {
+    width: 336px;
+    margin-bottom: 16px;
+}
+.container p {
+    color: #6c727f;
+    line-height: 1.8;
+  }
+section .tag{
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: var(--bg-tag);
+    color: var(--color-tag);
+    padding: 4px 16px;
+    border-radius: 16px;
+}
+section h1 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 16px ;
+    margin-bottom: 6px;
+}
+section p {
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+    color: var(--color-2);
+}
+section div:nth-child(1) {
+    border-bottom: 1px solid var(--border);
+}
+section .author{
+    color: var(--color-2);
+    font-size: 0.75rem;
+}
